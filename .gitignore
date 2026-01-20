@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+const nextConfig = {
+    reactStrictMode: false,
+    output: 'export',
+}
+module.exports = nextConfig
