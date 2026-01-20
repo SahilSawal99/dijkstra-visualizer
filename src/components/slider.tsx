@@ -7,8 +7,8 @@ const Slider = ({
 }) => {
     return (
         <div className="mx-8 mt-4 select-none">
-            <h1 className="text-gray-700 dark:text-gray-300 text-[12px] font-bold">Speed</h1>
-            <div ref={refs.sliderRef} className="w-[180px] h-2 bg-gray-300 dark:bg-gray-600 rounded inline-block hover:cursor-pointer">
+            <h1 className="text-gray-300 dark:text-gray-300 text-[12px] font-bold">Speed</h1>
+            <div ref={refs.sliderRef} className="w-[180px] h-2 bg-gray-300 dark:bg-gray-300 rounded inline-block hover:cursor-pointer">
                 <div ref={refs.thumbRef} className="-top-1 -ml-[6px] left-[50%] w-3 h-4 rounded-xl relative bg-slate-700 dark:bg-slate-400"></div>
             </div>
             <table className="w-[180px]">
