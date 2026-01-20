@@ -50,7 +50,11 @@ class Vertex {
 
         if (!this.label) return;
         ctx.font = "14px Arial";
-        ctx.fillStyle = "#000000"; // dark text for light mode visibility
+        
+        // Set text color based on theme - black for light mode, white for dark mode
+        const isDarkMode = document.documentElement.classList.contains('dark');
+        ctx.fillStyle = isDarkMode ? '#ffffff' : '#000000';
+        
         var width = ctx.measureText(this.label).width;
         var x = this.x - width / 2; // used to center text
         ctx.fillText(this.label, x, this.y + offset);
