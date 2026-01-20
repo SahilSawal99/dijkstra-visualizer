@@ -12,7 +12,7 @@ const styleRow = (row: HTMLTableRowElement) => {
 
 const styleVisitedRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'gray';
+    row.style.color = 'black';
     row.style.fontWeight = '400';
     row.style.background = 'none';
 }
@@ -33,7 +33,7 @@ const styleHighlightRow = (row: HTMLTableRowElement) => {
 
 const styleCell = (cell: HTMLTableCellElement) => {
     cell.style.borderWidth = '1px';
-    cell.style.borderColor = 'gray';
+    cell.style.borderColor = 'black';
 }
 
 /* 
