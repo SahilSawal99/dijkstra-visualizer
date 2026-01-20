@@ -5,7 +5,7 @@ import Vertex from "./vertex";
 const percentageError = 1.005; 
 
 
-// a distance multiplier used to calculate the positon of the edge weight in relation to the center of the edge 
+// a distance multiplier used to calculate the position of the edge weight in relation to the center of the edge 
 const factor = 15;
 
 class Edge {
@@ -74,7 +74,7 @@ class Edge {
     }
 
     /* 
-    Draws the edge on the canvas in the given colour, using the endpoints calculated from the edge's two vertices. 
+    Draws the edge on the canvas in the given color, using the endpoints calculated from the edge's two vertices. 
     The drawing includes the edge label and the 'pulsing' cursor
     */
     draw(ctx: CanvasRenderingContext2D, colour: string) {
