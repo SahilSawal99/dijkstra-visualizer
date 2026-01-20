@@ -24,7 +24,7 @@ const Canvas = ({
             ref={canvasRef} 
             height={500 * dpi} 
             width={650 * dpi} 
-            className="h-[500px] w-[650px] block outline-none bg-white rounded-md select-none" 
+            className="h-[500px] w-[650px] block outline-none bg-white dark:bg-gray-800 rounded-md select-none" 
             tabIndex={0}>
         </canvas>
     )
