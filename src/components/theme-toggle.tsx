@@ -23,6 +23,9 @@ export default function ThemeToggle() {
     }
 
     setIsDark(newIsDark)
+    
+    // Dispatch custom event to trigger canvas redraw with new text colors
+    window.dispatchEvent(new Event('themechange'))
   }
 
   if (!isMounted) return null

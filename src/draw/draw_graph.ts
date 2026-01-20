@@ -645,4 +645,11 @@ export const addGraphVisualizer = (
     refs.editRef.current?.addEventListener('click', enterEditMode);
     refs.restartRef.current?.addEventListener('click', restart);
     refs.buildRef.current?.addEventListener('click', prebuild);
+    
+    // theme change event - redraw graph with new text colors
+    window.addEventListener('themechange', () => {
+        if (!inVisMode) {
+            drawGraph();
+        }
+    });
 }
