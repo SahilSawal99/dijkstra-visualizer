@@ -15,3 +15,4 @@ If you're interested in how the code for the canvas works I have added documenta
 
 Check the app out here: https://www.davbyjan.com
 >>>>>>> parent of 921dfe5 (Update README.md)
+# Dijkstra-s-Algorithm-Visualizer
