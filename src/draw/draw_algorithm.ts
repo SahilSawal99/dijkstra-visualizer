@@ -18,11 +18,11 @@ export const addAlgorithmVisualizer = (
     var rect = refs.canvasRef.current?.getBoundingClientRect();
 
     // colours used to draw graph at each state in visualization
-    // Use white color for unvisited edges in dark mode for better visibility
+    // Use black color for unvisited edges in dark mode for better visibility
     const isDarkMode = document.documentElement.classList.contains('dark');
     const colourScheme = { 
         start: 'green',
-        unvisisted: isDarkMode ? 'white' : 'lightgray',
+        unvisisted: isDarkMode ? '#1a1a1a' : 'lightgray',
         used: '#075985', // sky-800
         current: 'gold' 
     };

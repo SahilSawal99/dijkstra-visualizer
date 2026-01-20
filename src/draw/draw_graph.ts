@@ -494,10 +494,10 @@ export const addGraphVisualizer = (
     selected object
     */
     function drawGraph() {
-        // Use white color for edges in dark mode for better visibility
+        // Use black color for edges in dark mode for better visibility
         const isDarkMode = document.documentElement.classList.contains('dark');
         var colourScheme = { 
-            def: isDarkMode ? 'white' : 'gray', 
+            def: isDarkMode ? '#1a1a1a' : 'gray', 
             selected: '#0284c7' 
         };
         const ctx = resetContext();
@@ -524,10 +524,10 @@ export const addGraphVisualizer = (
     
     // Draws the graph when the user is selecting a start vertex. A special colour is used for the chosen start vertex
     function drawGraphInSelectionMode() {
-        // Use white color for edges in dark mode for better visibility
+        // Use black color for edges in dark mode for better visibility
         const isDarkMode = document.documentElement.classList.contains('dark');
         var colourScheme = { 
-            def: isDarkMode ? 'white' : 'lightgray', 
+            def: isDarkMode ? '#1a1a1a' : 'lightgray', 
             start: '#075985' 
         };
         const ctx = resetContext();
