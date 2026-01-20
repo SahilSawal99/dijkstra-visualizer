@@ -11,8 +11,8 @@ const PriorityQueue = ({
             <table ref={pqRef} className="w-full">
                 <tbody>
                     <tr className="h-[30px] text-[14px]">
-                        <th className="border border-gray-300 dark:border-gray-600 dark:text-gray-300">Vertex</th>
-                        <th className="border border-gray-300 dark:border-gray-600 dark:text-gray-300">Distance</th>
+                        <th className="border border-gray-300 dark:border-gray-600 dark:text-gray-900">Vertex</th>
+                        <th className="border border-gray-300 dark:border-gray-600 dark:text-gray-900">Distance</th>
                     </tr>
                 </tbody>
             </table>

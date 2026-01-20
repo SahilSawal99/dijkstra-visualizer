@@ -12,21 +12,21 @@ const styleRow = (row: HTMLTableRowElement) => {
 
 const styleVisitedRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'black';
+    row.style.color = 'gray';
     row.style.fontWeight = '400';
     row.style.background = 'none';
 }
 
 const styleUnvisitedRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'black';
+    row.style.color = 'gray';
     row.style.fontWeight = '700';
     row.style.background = 'none';
 }
 
 const styleHighlightRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'black';
+    row.style.color = 'gray';
     row.style.fontWeight = '700';
     row.style.background = '#fcd34d';
 }

@@ -69,7 +69,7 @@ class Edge {
 
         if (!this.weight) return;
         ctx.font = "14px Arial";
-        ctx.fillStyle = "#1a1a1a"; // dark text for light mode visibility
+        ctx.fillStyle = "#000000"; // dark text for light mode visibility
         ctx.fillText(this.weight.toString(), point.x, point.y);
     }
 
