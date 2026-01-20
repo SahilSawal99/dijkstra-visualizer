@@ -8,4 +8,10 @@
 5. Visually displays the state of the graph after each step.
 6. Shows the state of the priority queue throughout the traversal.
 
+<<<<<<< HEAD
 Check out the project here : 
+=======
+If you're interested in how the code for the canvas works I have added documentation for all the related functions to make it easy to understand.
+
+Check the app out here: https://www.davbyjan.com
+>>>>>>> parent of 921dfe5 (Update README.md)
