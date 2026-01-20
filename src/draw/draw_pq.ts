@@ -3,6 +3,11 @@ import Vertex from "@/app/elements/vertex";
 
 import { RefObject } from "react";
 
+// Helper function to get text color based on theme
+const getTextColor = () => {
+    return document.documentElement.classList.contains('dark') ? 'white' : 'black';
+}
+
 const styleRow = (row: HTMLTableRowElement) => {
     row.style.height = '30px';
     row.style.textAlign = 'center';
@@ -12,28 +17,33 @@ const styleRow = (row: HTMLTableRowElement) => {
 
 const styleVisitedRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'gray';
+    const textColor = getTextColor();
+    row.style.color = textColor;
     row.style.fontWeight = '400';
     row.style.background = 'none';
+    row.style.opacity = '0.7';
 }
 
 const styleUnvisitedRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'black';
+    const textColor = getTextColor();
+    row.style.color = textColor;
     row.style.fontWeight = '700';
     row.style.background = 'none';
 }
 
 const styleHighlightRow = (row: HTMLTableRowElement) => {
     styleRow(row);
-    row.style.color = 'black';
+    const textColor = getTextColor();
+    row.style.color = textColor;
     row.style.fontWeight = '700';
     row.style.background = '#fcd34d';
 }
 
 const styleCell = (cell: HTMLTableCellElement) => {
     cell.style.borderWidth = '1px';
-    cell.style.borderColor = 'gray';
+    const isDarkMode = document.documentElement.classList.contains('dark');
+    cell.style.borderColor = isDarkMode ? 'white' : 'gray';
 }
 
 /* 
