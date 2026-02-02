@@ -1,4 +1,3 @@
-
 # Dijkstra's Algorithm Visualizer
 
 1. Built as a learning aid to help students fully conceptualize Dijkstra’s Algorithm.
@@ -7,9 +6,8 @@
 4. Provides step-by-step algorithm animation.
 5. Visually displays the state of the graph after each step.
 6. Shows the state of the priority queue throughout the traversal.
-
 Thank You!!
 
-Story Behind the Algorithm: https://youtu.be/8of-AQmq4VY?si=aWoI3oDh6daaur3h (Credit: Harshita Verma)
-
 Check out the project here: https://dijkstra-visualizer-tau.vercel.app/
+
+Story Behind the Algorithm(YT-Shorts) : https://youtu.be/8of-AQmq4VY?si=aWoI3oDh6daaur3h (Credit: Harshita Verma)
