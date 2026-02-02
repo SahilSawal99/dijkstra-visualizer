@@ -1,6 +1,7 @@
 {
-  "name": "dav",
+  "name": "dijkstra-visualizer",
   "version": "0.1.0",
+  "description": "An interactive Dijkstra's Algorithm visualizer built with Next.js and TypeScript",
   "private": true,
   "scripts": {
     "dev": "next dev",
