@@ -12,4 +12,7 @@ Check out the project here: https://dijkstra-visualizer-tau.vercel.app/
 
 Story Behind the Algorithm(YT-Shorts) : https://youtu.be/8of-AQmq4VY?si=aWoI3oDh6daaur3h (Credit: Harshita Verma)
 
+
+Made By ~ Ayush Singh Baghel 
+
 Made by Gen-Z, for Gen-Z  ~ Sahil Sawal
